@@ -4,8 +4,8 @@
 
 var WB_STATES = {
     BORN : {value: 0, name: "BORN"},
-    SEARCH_SICKNESS : {value: 1, name: ""},
-    KILL_MODE : {value: 2, name: ""}
+    SEARCH_SICKNESS : {value: 1, name: "SEEK"},
+    KILL_MODE : {value: 2, name: "DESTROY"}
 };
 
 function WhiteBloodCell(game, x, y, sicknessIndicator) {
