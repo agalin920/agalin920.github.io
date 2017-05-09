@@ -42,7 +42,7 @@ SimulatorState.prototype.create = function() {
     background = this.game.add.sprite(0, 0, 'background');
 
     // Create initial common cells
-    var startingCells = 30;
+    var startingCells = 20;
     var startingSeed = "ab";
 
     this.proteins = this.game.add.group();
@@ -172,12 +172,13 @@ SimulatorState.prototype.onSecondElapsed = function() {
         console.log("Max food reached");
     }
 
-    this.displayText.text = "Game data \nTotal cells alive: " + this.commonCells.countLiving() +"\nCells Eliminated: "+this.cellsEliminated;
+    this.displayText.text = "Game data: \nTotal cells alive: " + this.commonCells.countLiving() +"\nCancerous Cells Eliminated: "+this.cellsEliminated;
     this.game.time.events.add(Phaser.Timer.SECOND * 1, this.onSecondElapsed, this);
 };
 
 
-
+winW = window.screen.availWidth;            
+winH = window.screen.availHeight - 250;  
 //Create new game with the simulator starting state
-var game = new Phaser.Game(1280, 600, Phaser.AUTO, 'game');
+var game = new Phaser.Game(winW, winH, Phaser.AUTO, 'game');
 game.state.add('simulator', SimulatorState, true);

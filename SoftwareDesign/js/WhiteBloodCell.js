@@ -3,7 +3,7 @@
 */
 
 var WB_STATES = {
-    BORN : {value: 0, name: "BORN"},
+    BORN : {value: 0, name: "DEPLOYED"},
     SEARCH_SICKNESS : {value: 1, name: "SEEK"},
     KILL_MODE : {value: 2, name: "DESTROY"}
 };
