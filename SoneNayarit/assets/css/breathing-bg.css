@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(../breathing-bg.svg);
+    
+    /*
+    background: linear-gradient(63deg, #e37682, #5f4d93);
+    background-size: 1000% 1000%;
+    
+    -webkit-animation: breathing-bg 11s ease infinite;
+    -moz-animation: breathing-bg 11s ease infinite;
+    -o-animation: breathing-bg 11s ease infinite;
+    animation: breathing-bg 11s ease infinite;
+    z-index:-1;*/
+}
+/*
+@-webkit-keyframes breathing-bg {
+    0%{background-position:87% 0%;}
+    50%{background-position:14% 100%;}
+    100%{background-position:87% 0%;}
+}
+@-moz-keyframes breathing-bg {
+    0%{background-position:87% 0%;}
+    50%{background-position:14% 100%;}
+    100%{background-position:87% 0%;}
+}
+@-o-keyframes breathing-bg {
+    0%{background-position:87% 0%;}
+    50%{background-position:14% 100%;}
+    100%{background-position:87% 0%;}
+}
+@keyframes breathing-bg {
+    0%{background-position:87% 0%;}
+    50%{background-position:14% 100%;}
+    100%{background-position:87% 0%;}
+}*/
+
+
